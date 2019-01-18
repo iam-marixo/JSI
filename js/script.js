@@ -61,3 +61,23 @@
 //    }
 //
 // </script>
+//
+// function create( type ) {
+//  return document.createElement(type);
+// }
+// function text(el, value) {
+//   el.innerText = value;
+// }
+// function html(el, value) {
+//   el.innerHTML = value;
+// }
+// function append(el) {
+//  document.body.appendChild(el);
+// }
+//
+// const h1 = create('h1');
+// text(h1, '<p>hello world</p>');
+// html(h1, '<p>hello world</p>');
+// append(h1);
+// h1.style.color = 'green';
+// h1.addEventListener('hover', () => { alert('you clicked the text') } )
